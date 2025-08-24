@@ -8,7 +8,7 @@
 
 ## Linuxin asentaminen
 
-- Tein harjoituksen lauantaina kotona. Omalla koneellani on Ubuntu, mutta harjoitusta varten käytin virtuaalikoneiden luomiseen Oraclea VirtualBoxia(joka oli valmiiksi ladattuna).
+- Tein harjoituksen lauantaina kotona. Omalla koneellani on Linux, mutta harjoitusta varten käytin virtuaalikoneiden luomiseen Oraclea VirtualBoxia(joka oli valmiiksi ladattuna).
 
 ```console
 OS Name:          Zorin OS 17.3
