@@ -28,6 +28,7 @@
 ### FHS
 <img width="1920" height="1048" alt="Screenshot from 2025-08-30 16-57-03" src="https://github.com/user-attachments/assets/c7929c6a-ed71-4330-8762-674a25baa5b5" />
 <img width="1920" height="1048" alt="Screenshot from 2025-08-30 16-57-40" src="https://github.com/user-attachments/assets/f9fea7f2-9f46-4d1c-9f2d-d684149106ce" />
+
 - juurihakemistot
 - kotihakemisto
 - käyttäjän tiedostot
