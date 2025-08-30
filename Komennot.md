@@ -28,10 +28,17 @@
 ### FHS
 <img width="1920" height="1048" alt="Screenshot from 2025-08-30 16-57-03" src="https://github.com/user-attachments/assets/c7929c6a-ed71-4330-8762-674a25baa5b5" />
 <img width="1920" height="1048" alt="Screenshot from 2025-08-30 16-57-40" src="https://github.com/user-attachments/assets/f9fea7f2-9f46-4d1c-9f2d-d684149106ce" />
+- juurihakemistot
+- kotihakemisto
+- käyttäjän tiedostot
+-  ```/etc/``` järjestelmän asetukset
+- ```/media/``` mediahakemistosta löytyy tallennusvälineet
+- ```/var/log/```hakemistosta löytyy lokitiedostot
 
   
 ### Grep-kommennot ja Pipe
 <img width="1518" height="932" alt="Screenshot from 2025-08-30 15-17-54" src="https://github.com/user-attachments/assets/5ede76b1-7db7-4145-9fe8-af6813c6814a" />
+- 
 
 
 ### Rauta
