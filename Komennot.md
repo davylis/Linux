@@ -41,7 +41,7 @@
 <img width="1518" height="932" alt="Screenshot from 2025-08-30 15-17-54" src="https://github.com/user-attachments/assets/5ede76b1-7db7-4145-9fe8-af6813c6814a" />
 
 - ```grep Linux /home/davylis... ``` etsii tiedostosta rivejä
-- ```grep -i error /var/log... | head -n 5``` i-: ei välitä kirjainkoosta(error/ERROR) |: putkella otetaan vain ensimmäiset viisi tulosta. Näyttää vain ensimmäiset viisi error-viestiä
+- ```grep -i error /var/log... | head -n 5``` i-: ei välitä kirjainkoosta(error/ERROR) |: putkella yhdistetään komentoja ja otetaan vain ensimmäiset viisi tulosta. Näyttää vain ensimmäiset viisi error-viestiä
 - ```grep -E 'error|fail|warning' /var/log/syslog | tail -n 5``` -E: Extended regex, error|fail|warning: etsii rivejä, joissa esiintyy nämä ja näyttää viimeiset 5 tulosta.
 
 
