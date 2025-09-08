@@ -132,11 +132,6 @@ site1.com
 - Molemmat näyttävät eri sivuja, vaikka käytetään samaa IP-osoitetta.
 <img width="920" height="312" alt="Screenshot from 2025-09-08 14-04-59" src="https://github.com/user-attachments/assets/dfa117ac-fa40-4041-a9cb-a228c6c3878f" />
 
-
-MUISTA:
-Käyttöoikeudet takaisin 700
-Oletussivu takaisin localhost
-
   
 ## Lähteet
 - https://httpd.apache.org/docs/2.4/logs.html#common
