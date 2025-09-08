@@ -59,6 +59,7 @@ Status oli aktiivinen (running) ja siksi jatkoin eteenpäin
 -  ```-``` : sivu, jolta pyyntö tuli
 - ```"curl/7.81.0"``` : asiakasohjelman tunniste. Tässä curl.
 
+
 ## Uusi name-based Virtual Host ja validi HTML-sivu
 - Loin kansion uudelle sivulle tarvittaessa, jos sitä ei ole vielä olemassa komennolla ```mkdir -p ~/public_html/hat```
 - Tämän jälkeen loin uuden html sivun komennolla ```vim ~/public_html/hat/index.html```
@@ -88,9 +89,13 @@ sudo systemctl restart apache2
 ```
 sudo vim /etc/hosts
 ```
-- ja tiedostossa vaihdetaan localhost meidän uuteen sivuun eli ```hat.davydov.com```
+- ja tiedostossa vaihdetaan localhost meidän uuteen sivuun eli ```hat.davydov.com```(Apache Documentation 2025)
 - Testataan sivu curlilla ja selaimessa:
-![Uploading Screenshot from 2025-09-08 14-18-39.png…]()
+
+<img width="922" height="270" alt="Screenshot from 2025-09-08 14-18-39" src="https://github.com/user-attachments/assets/395b0604-98f2-4472-b22b-b1d63d6626d5" />
+
+<img width="922" height="270" alt="Screenshot from 2025-09-08 14-32-57" src="https://github.com/user-attachments/assets/1768a3dd-6c02-459c-a4de-e7fd58601b3c" />
+
 
 ## curl-hakemistot
 - curl on komentorivityökalu, jolla voidaan tehdä HTTP-pyyntöjä. Se hakee verkkopalvelimelta tiedostoja ja tietoja kuten edellisessä esimerkissä näkyy.
@@ -134,9 +139,8 @@ site1.com
 
   
 ## Lähteet
-- https://httpd.apache.org/docs/2.4/logs.html#common
-- https://datatracker.ietf.org/doc/html/rfc7231
-- Linuxin asentaminen: https://terokarvinen.com/2021/install-debian-on-virtualbox/
-- https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+- Apache Documentation. Luettavissa: https://httpd.apache.org/docs/2.4
+- Tero Karvinen. Name Based Virtual Hosts on Apache. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - https://httpd.apache.org/docs/2.4/vhosts/name-based.html
-- https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-03092025.md
+- Johanna Heinonen. 2025. Apache2. Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-03092025.md
+- ChatGPT: käyttö termien hiontaan ja tehtävän tarkistukseen.
