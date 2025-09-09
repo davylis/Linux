@@ -67,12 +67,12 @@ Status oli aktiivinen (running) ja siksi jatkoin eteenpäin
 
 - Sitten luodaan uusi Virtual Host tiedosto config-filella komennolla ```sudo vim /etc/apache2/sites-available/hat.conf```
 - Tämä tiedosto kertoo Apachessa, että kaikki pyynnöt hat.davydov.com-osoitteeseen ohjataan tähän hakemistoon.
-- Tiedostoon lisätään:
--Portin tiedot: ```80```
--Domain nimi: ```hat.davydov.com```
--Hakemisto, josta sisältö palvellaan: ```/home/davylis/public_html/hat```
--sallii .htaccess-määritykset, tarvittaessa:  ```AllowOverride All```
--sallii kaikille pääsyn hakemistoon: ```Require all granted```
+- Tiedostoon lisätään:  
+Portin tiedot: ```80```  
+Domain nimi: ```hat.davydov.com```  
+Hakemisto, josta sisältö palvellaan: ```/home/davylis/public_html/hat```  
+sallii .htaccess-määritykset, tarvittaessa:  ```AllowOverride All```  
+sallii kaikille pääsyn hakemistoon: ```Require all granted```  
 
 - Poistetaan oletussivu ja lisätään uusi sivu
 - Ennen tätä tarkistan mikä oletussivu minulla on juuri nyt käytössä komennolla ```ls -l /etc/apache2/sites-enabled/```
