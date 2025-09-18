@@ -10,6 +10,7 @@ Kernel Version:   6.8.0-65-generic
 System Type:      x86_64
 ```
 
+<img width="1194" height="376" alt="Screenshot 2025-09-17 at 21 59 38" src="https://github.com/user-attachments/assets/8578841b-6bd9-45ef-86a4-697a9e48072c" />
 
 ## Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla
 - Palvelin vuokrataan pilvipalveluntarjoajalta (esim. UpCloud, DigitalOcean).
