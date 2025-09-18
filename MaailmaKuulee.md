@@ -3,7 +3,6 @@
 
 - Tein harjoituksen omalla kotikoneella ilman virtuaalikonetta. Tämä kone on MAC:illa:
 
-
 ## Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla
 - Palvelin vuokrataan pilvipalveluntarjoajalta (esim. UpCloud, DigitalOcean)
 - Valitaan käyttöjärjestelmä (esim. Linux ja esim. Ubuntu)
@@ -44,33 +43,33 @@
 - Koneen asetukset
 <img width="2196" height="857" alt="Screenshot 2025-09-17 at 16 59 18(1)" src="https://github.com/user-attachments/assets/68b69319-27a8-425b-b756-5cc6bafe052d" />
 
-- Minun root kirjautuminen jäi tästä välistä(huomasin vasta jälkikäteen, mutta harjoituksen vuoksi teen samat asetukset ja uuden sudo käyttäjän)
+- Minun root kirjautuminen jäi tästä välistä eli komennolla ```ssh root@192.168.100.35``` ja minulla on jo luotu käyttäjä (huomasin vasta jälkikäteen, mutta harjoituksen vuoksi teen samat asetukset ja uuden sudo käyttäjän)
 <img width="1137" height="1156" alt="Screenshot 2025-09-17 at 20 08 06" src="https://github.com/user-attachments/assets/b59e9f3f-31c1-4ba2-b1a3-1f75cf114def" />
 
-- Otetaan käyttöön palomuuri ja sallitaan portti 22
+-  Sallitaan ensin portti 22 palomuurille ```sudo ufw allow 22/tcp``` ja otetaan käyttöön palomuuri komennolla ```sudo ufw enable```
 <img width="1191" height="90" alt="Screenshot 2025-09-17 at 20 07 20" src="https://github.com/user-attachments/assets/615fabee-a1df-4b99-86d1-fe0a97fdd13b" />
 
 <img width="1256" height="122" alt="Screenshot 2025-09-17 at 20 06 38" src="https://github.com/user-attachments/assets/50dcac2f-607f-4cb1-be06-7b7163f23dab" />
 
-- Uuden sudo käyttäjän luonti ja annetaan sille tarvittavat oikeudet
+- Uuden sudo käyttäjän luonti komennoilla ```sudo adduser liisa``` ja annetaan sille tarvittavat sudo oikeudet ```sudo adduser liisa sudo``` ja tehdään käyttäjästä liisa lokien lukuun oikeutetun ylläpitäjän komennolla ```sudo adduser liisa adm```
 <img width="1145" height="785" alt="Screenshot 2025-09-17 at 18 19 28" src="https://github.com/user-attachments/assets/ee40d1c9-8e34-487c-b50d-8368cddf9c2d" />
 
-- Testataan uusi sudo käyttäjä ja kirjautuminen
+- Testataan uusi sudo käyttäjä ja kirjaudutaan ssh: kautta
 <img width="1194" height="376" alt="Screenshot 2025-09-17 at 21 59 38" src="https://github.com/user-attachments/assets/8578841b-6bd9-45ef-86a4-697a9e48072c" />
 
-- Suljetaan root käyttäjä
+- Lukitaan root käyttäjä komennolla ```sudo usermod --lock root``` ja tehdään sudoedit config fileen
 <img width="926" height="65" alt="Screenshot 2025-09-17 at 18 29 52" src="https://github.com/user-attachments/assets/ddfaec79-8aad-4e15-ad3d-f1aca53ba806" />
 
-- Otetaan pois käytöstä ssh kirjautuminen rootilta
+- Otetaan pois käytöstä ssh kirjautuminen rootilta kirjoittamalla config fileen  PermitRootLogin kohtaan ```no``
 <img width="983" height="253" alt="Screenshot 2025-09-17 at 18 29 11" src="https://github.com/user-attachments/assets/f8b2bd3a-c6f4-4837-9315-d838b894c6f6" />
 
-- Tehdään kaikki ohjelmapäivitykset
+- Tehdään kaikki ohjelmapäivitykset komennolla ```sudo apt-get update && sudo apt-get upgrade```
 <img width="1229" height="329" alt="Screenshot 2025-09-17 at 18 30 41" src="https://github.com/user-attachments/assets/fd1e7da0-9566-45c6-b957-c0c96d0e381c" />
 
 - Aloitetaan käyttö, lataamalla julkinen palvelin Apache. Tehdään myös palomuuri ja sallitaan portti 80(terminaalissa ei näy, mutta lisään kuvan kun palaan kotiin:D)
 <img width="1179" height="240" alt="Screenshot 2025-09-17 at 18 37 08" src="https://github.com/user-attachments/assets/ecdaaa8b-4205-40c2-a8e3-134c1a03fd1d" />
 
-- Testataan meidän nettisivu! Kännykällä toimii myös!
+- Testataan meidän nettisivu! Tässä on localhostin kautta toimiva nettisivu ja oman domainin kautta sitten config filen kautta säätämällä.
 <img width="1208" height="120" alt="Screenshot 2025-09-17 at 18 48 39" src="https://github.com/user-attachments/assets/9fb26ae8-52f1-4478-a01f-edc256276a64" />
 
 
