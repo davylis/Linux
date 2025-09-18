@@ -70,20 +70,15 @@
 - Aloitetaan käyttö, lataamalla julkinen palvelin Apache. Tehdään myös palomuuri ja sallitaan portti 80(terminaalissa ei näy, mutta lisään kuvan kun palaan kotiin:D)
 <img width="1179" height="240" alt="Screenshot 2025-09-17 at 18 37 08" src="https://github.com/user-attachments/assets/ecdaaa8b-4205-40c2-a8e3-134c1a03fd1d" />
 
-- Testataan meidän nettisivu!
+- Testataan meidän nettisivu! Kännykällä toimii myös!
 <img width="1208" height="120" alt="Screenshot 2025-09-17 at 18 48 39" src="https://github.com/user-attachments/assets/9fb26ae8-52f1-4478-a01f-edc256276a64" />
 
 
-
-
-
-
-
-
 ## Lähteet
-- Apache Documentation. Luettavissa: https://httpd.apache.org/docs/2.4
-- Tero Karvinen. Name Based Virtual Hosts on Apache. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
-- https://httpd.apache.org/docs/2.4/vhosts/name-based.html
-- Johanna Heinonen. 2025. Apache2. Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-03092025.md
+- First Steps on a New Virtual Private Server. Tero Karvinen. Luettavissa: https://httpd.apache.org/docs/2.4](https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+- Teoriasta käytäntöön pilvipalvelimen avulla. Susanna Lehto. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/](https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
+- Proxmox VE Documentation. Luettavissa: https://pve.proxmox.com/pve-docs/
 - ChatGPT: käyttö termien hiontaan ja tehtävän tarkistukseen.
+
+
 
