@@ -69,8 +69,15 @@
 - Aloitetaan käyttö, lataamalla julkinen palvelin Apache. Tehdään myös palomuuri ja sallitaan portti 80(terminaalissa ei näy, mutta lisään kuvan kun palaan kotiin:D)
 <img width="1179" height="240" alt="Screenshot 2025-09-17 at 18 37 08" src="https://github.com/user-attachments/assets/ecdaaa8b-4205-40c2-a8e3-134c1a03fd1d" />
 
-- Testataan meidän nettisivu! Tässä on localhostin kautta toimiva nettisivu ja oman domainin kautta sitten config filen kautta säätämällä.
+- Testataan meidän nettisivu! Asennetaan apache ja otetaan käyttöön kotisivut. Avataan tulimuuri portti 80 ja korvataan oletussivu omalla nettisivulla.
 <img width="1208" height="120" alt="Screenshot 2025-09-17 at 18 48 39" src="https://github.com/user-attachments/assets/9fb26ae8-52f1-4478-a01f-edc256276a64" />
+
+- Otetaan käyttöön käyttäjien kotisivut ja userdir-moduuli komennolla ```sudo a2enmod userdir && sudo systemctl restart apache2```
+
+- Luodaan kotihakemisto komennolla ```mkdir ~/public_html && echo "<h1>Uusi kotisivu!</h1>" > ~/public_html/index.html```
+
+- Sivu näkyy nyt osoitteessa ```http://192.168.100.35/~liisa/```
+
 
 
 ## Lähteet
