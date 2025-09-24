@@ -50,7 +50,20 @@
 - Käynnistetään apache uudelleen
 <img width="1245" height="604" alt="Screenshot 2025-09-24 at 19 20 49" src="https://github.com/user-attachments/assets/c42b5158-2777-49ff-8fda-d7ac88595e0c" />
 
+- davylis.com on nyt suojattu, mutta mietin pitkään, miksei www.davylis.com toimi. Syyksi osoittautui koneeni DNS Cache ja piti vain kokeilla puhelimen kautta :)
+<img width="1030" height="245" alt="Screenshot 2025-09-24 at 23 14 09" src="https://github.com/user-attachments/assets/4369b083-c093-4f32-a281-4db2f3f59276" />
+<img width="836" height="450" alt="Screenshot 2025-09-24 at 23 15 01" src="https://github.com/user-attachments/assets/1ff48054-33a4-4432-9177-d7778f4481b9" />
 
+- Lisäsin myös ```Redirect permanent / https://davylis.com/``` config fileen, jotta https tulisi automaattisesti, ettei tarvitsisi kirjoittaa sitä hakuun.
+<img width="844" height="309" alt="Screenshot 2025-09-24 at 23 16 52" src="https://github.com/user-attachments/assets/6038bafd-b385-4a26-87db-583f62a01cdf" />
+
+## TLS Testaus
+- davylis.com
+<img width="1085" height="1114" alt="Screenshot 2025-09-24 at 23 17 58" src="https://github.com/user-attachments/assets/6cf99abc-d5ed-4b0c-b176-d6eafeeb910e" />
+
+## Haavoittuvuustesti
+
+---
 
 ## Lähteet
 - Let's Encrypt. 2024. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited](https://letsencrypt.org/how-it-works/
