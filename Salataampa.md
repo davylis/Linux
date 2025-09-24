@@ -26,7 +26,7 @@
 - Lähdetään asentamaan ohjelmaa komennolla ```sudo apt install lego``` 
 <img width="1231" height="1167" alt="Screenshot 2025-09-24 at 18 35 07" src="https://github.com/user-attachments/assets/4a547ca8-591b-48e7-9fec-6c71835fca4a" />
 
-- Luodaan TLS sertifikaatti, mutta hupsista, portti 80 on jo käytössä. Otetaan defaultti sitti pois paaltä ja apache alas niin lego pystyy käyttämään sitä.
+- Luodaan TLS sertifikaatti, mutta hupsista, portti 80 on jo käytössä. Otetaan defaultti saitti pois paaltä ja apache alas niin lego pystyy käyttämään sitä.
 <img width="1246" height="558" alt="Screenshot 2025-09-24 at 19 06 48" src="https://github.com/user-attachments/assets/e95c139d-9998-4e49-b888-6d655c3b7252" />
 
 -  Sertifikaatti luotuna
