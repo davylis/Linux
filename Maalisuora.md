@@ -43,8 +43,32 @@
 - Nähdään että omistajan root oikeudet ovat luku, kirjoitus, suoritus, ryhmän root oikeudet ovat luku ja suoritus ja muilla käyttäjillä luku ja suoritus ```-rwxr-xr-x 1 root root 305 Oct  7 11:21 /usr/local/bin/levytarkistus```
 <img width="1233" height="86" alt="Screenshot 2025-10-07 at 11 29 28" src="https://github.com/user-attachments/assets/e7f4453c-1daf-4187-a5c0-a52d05450582" />
 
-## Vanha Labra(Huomasin tämän liian myöhään! Odota arvioija jooko teen tänään (tiistai) aikana!!!)
-Työstön alla
+## Vanha Labra : Final Lab for Linux Palvelimet 2024 Spring(SOS! HUOMASIN TÄMÄN LIIAN MYÖHÄÄN :(( TEHTÄVÄ KESKEN VIELÄ)
+- Luodaan raportti
+<img width="1151" height="120" alt="Screenshot 2025-10-08 at 18 02 30" src="https://github.com/user-attachments/assets/29b4a214-8d9b-4a5d-ab7c-8dd51159ef0f" />
+
+### b) Tiivistelmä koko työstä lopuksi
+      
+### c) Ei kolmea sekoseiskaa
+- Asetettaan omistajaksi itseni kaiken varaksi komennolla ```sudo chown -R davylis:davylis report```
+<img width="1126" height="66" alt="Screenshot 2025-10-08 at 18 03 22" src="https://github.com/user-attachments/assets/0093a1c6-3ee0-4fa1-9574-5a78766deb5d" />
+
+- Suojataan raportti Linux-oikeuksilla niin, että vain oma käyttäjäni pystyy katselemaan raporttia.
+- - Lisätään ```700``` ja ```600``` oikeudet
+<img width="1165" height="182" alt="Screenshot 2025-10-08 at 18 03 54" src="https://github.com/user-attachments/assets/4b2f5ed3-ba1a-4c0f-a9e1-aa367abd3b0b" />
+
+- Testaus: toionen käyttäjä ei näe raporttia
+<img width="1165" height="89" alt="Screenshot 2025-10-08 at 18 05 05" src="https://github.com/user-attachments/assets/3f9b5bab-f27d-4b44-ae28-336198012bc9" />
+
+### d) 'howdy'
+- Tehdään kaikkien käyttäjien käyttöön komento 'howdy'
+- Lisätään julkiset oikeudet
+<img width="1098" height="38" alt="Screenshot 2025-10-08 at 18 05 27" src="https://github.com/user-attachments/assets/5a1ea8ea-c22f-4878-83eb-82620b2e02ac" />
+
+- Testataan. Toinen käyttäjä pystyy käyttämään!
+<img width="1268" height="473" alt="Screenshot 2025-10-08 at 17 58 39" src="https://github.com/user-attachments/assets/1b4fa871-0c79-43d0-a7ba-a151715ac9be" />
+
+KESKEN!!
 
 
 
