@@ -97,12 +97,34 @@
 
 ### h) Django
 
+- Asennetaan Python-virtuaaliympäristöpaketti
+<img width="1182" height="177" alt="Screenshot 2025-10-13 at 14 50 25" src="https://github.com/user-attachments/assets/ef2d9fb6-6e65-4a15-91ff-849e6515bb87" />
+
+- Luodaan virtuaaliympäristö komennolla ```python3 -m venv venv```
+- Aktivoidaan komennolla ```source venv/bin/activate```
+- Asennetaan Django ```pip install django```
+- Luodaan uusi Django projekti ja siirrytään sinne
+- Käynnistetään palvelin
+<img width="1207" height="441" alt="Screenshot 2025-10-13 at 14 54 52" src="https://github.com/user-attachments/assets/dfdb75dc-2ce7-437a-9b71-81f39bbf00bf" />
+
+- Testataan localhost
+<img width="1247" height="901" alt="Screenshot 2025-10-13 at 14 47 56" src="https://github.com/user-attachments/assets/495f1956-32a4-4c1f-a5f5-003a1bb9a4ad" />
+
+- Luodaan tietomalli, lisätään adminiin ja tehdään tietokanta ja admin käyttäjä
+<img width="1222" height="38" alt="Screenshot 2025-10-13 at 15 19 17" src="https://github.com/user-attachments/assets/a7540c5c-34c0-4741-8c73-2d7c64b8d3cc" />
+<img width="1123" height="33" alt="Screenshot 2025-10-13 at 15 19 02" src="https://github.com/user-attachments/assets/d4ae4982-ec93-4ac2-ae20-67381d3250d4" />
+<img width="1143" height="664" alt="Screenshot 2025-10-13 at 15 19 58" src="https://github.com/user-attachments/assets/2e954e20-3902-4c46-b353-1470eafb9860" />
+
+
+- Käynnistetään
+<img width="1224" height="407" alt="Screenshot 2025-10-13 at 15 18 33" src="https://github.com/user-attachments/assets/25d10048-041e-46d7-b586-d2a89135ebcf" />
+<img width="1214" height="1006" alt="Screenshot 2025-10-13 at 15 20 55" src="https://github.com/user-attachments/assets/00a4ca60-4cbf-4582-a1ed-c17cad3d6f83" />
+
+
 ### h) Tuotantopropelli
+- Tehtävä jätetty väliin;(
 
-KESKEN!!
 
-
-```sud```
 ## Lähteet
 - Shell Scripting. Tero Karvinen. Luettavissa: [https://httpd.apache.org/docs/2.4](https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/](https://terokarvinen.com/2007/12/04/shell-scripting-4/)
 - Linux shell scripting basics. Johanna Heinonen. Luettavissa: [https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/](https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/](https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-01102025.md)
