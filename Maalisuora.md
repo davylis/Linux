@@ -68,10 +68,41 @@
 - Testataan. Toinen käyttäjä pystyy käyttämään!
 <img width="1268" height="473" alt="Screenshot 2025-10-08 at 17 58 39" src="https://github.com/user-attachments/assets/1b4fa871-0c79-43d0-a7ba-a151715ac9be" />
 
+### e) Etusivu uusiksi
+- Asennetaan apache komennolla ```sudo apt install apache2 -y```
+- Tehdään uusi kotisivu "AI kaikone"
+<img width="1181" height="123" alt="Screenshot 2025-10-13 at 14 04 54" src="https://github.com/user-attachments/assets/bd222d56-150d-4a8d-94a9-a8bb6eb79e73" />
+
+<img width="1075" height="62" alt="Screenshot 2025-10-13 at 14 04 21" src="https://github.com/user-attachments/assets/1a77780b-aeef-46d3-ab71-e45289ed57d0" />
+
+- Sallitaan muokkaus tavalliselle käyttäjälle komennolla ```sudo chown -R $davylis:$davylis /var/www/html```
+- Testataan meidän IP-osoitteella
+<img width="1179" height="86" alt="Screenshot 2025-10-13 at 14 08 27" src="https://github.com/user-attachments/assets/5f33bb9a-50d3-4b18-9075-017e04087551" />
+
+### g) Salattua hallintaa
+- Asennetaan ssh-palvelin
+<img width="1119" height="126" alt="Screenshot 2025-10-13 at 14 13 47" src="https://github.com/user-attachments/assets/165772d5-36ea-4d42-977e-9cd2161b8443" />
+
+- Luo uusi käyttäjä
+<img width="1162" height="226" alt="Screenshot 2025-10-13 at 14 43 07" src="https://github.com/user-attachments/assets/33a3a484-8960-4756-956a-efa4813aa13c" />
+
+- Luo ssh-avaimet
+<img width="1143" height="92" alt="Screenshot 2025-10-13 at 14 44 19" src="https://github.com/user-attachments/assets/585ecef5-ecd5-46b1-8b7a-a1df6b061fc8" />
+
+- Kopioidaan avain uudelle käyttäjälle
+<img width="1022" height="118" alt="Screenshot 2025-10-13 at 14 42 02" src="https://github.com/user-attachments/assets/ee46a788-70a5-4990-b627-08c9ea405100" />
+
+- Testataan
+<img width="1183" height="884" alt="Screenshot 2025-10-13 at 14 41 33" src="https://github.com/user-attachments/assets/8e20d701-5965-4ba6-9625-0d603d8d4cca" />
+
+### h) Django
+
+### h) Tuotantopropelli
+
 KESKEN!!
 
 
-
+```sud```
 ## Lähteet
 - Shell Scripting. Tero Karvinen. Luettavissa: [https://httpd.apache.org/docs/2.4](https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/](https://terokarvinen.com/2007/12/04/shell-scripting-4/)
 - Linux shell scripting basics. Johanna Heinonen. Luettavissa: [https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/](https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/](https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-01102025.md)
